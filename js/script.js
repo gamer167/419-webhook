@@ -22,7 +22,7 @@ start.addEventListener("click", async () => {
         start.disabled = true;
         stop.disabled = false;
         alert("Started spamming!");
-        interval = setInterval(send, 100);
+        interval = setInterval(send, 10);
     } catch (e) {
         alert("Invalid webhook URL!");
     }
